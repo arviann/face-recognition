@@ -1,0 +1,23 @@
+# Data sensitif — JANGAN pernah dihapus dari sini
+foto/*
+!foto/.gitkeep
+data/*
+!data/.gitkeep
+hasil/*
+!hasil/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Model InsightFace (besar, auto-download, tidak perlu di-commit)
+.insightface/
+*.onnx
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
